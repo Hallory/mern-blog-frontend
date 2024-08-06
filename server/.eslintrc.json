@@ -1,0 +1,10 @@
+{
+    "env": {
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+      "no-undef": "off" // Может потребоваться отключить это правило, если оно вызывает проблемы в среде Node.js
+    }
+  }
+  
